@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Особиста сторінка викладача</title>
+    <link rel="stylesheet" href="style.css"> <!-- Підключення файлу стилів CSS -->
+</head>
+<body>
+<div class ='container'>
+       
+    <div id="header">
+    	<div class="left-content">
+        	<h1>Іванов Микола Степанович</h1>
+        	<p style="font-weight: bold;"><a href="mailto:teacher@email.com">teacher@email.com</a> тел.: +1234567890</p>
+        
+        	<section id="education">
+            	<h2>Освіта та кваліфікація</h2>
+            	<p>Вчений ступінь: Рівень, науковий ступінь та спеціалізація</p>
+            	<p>Вчене звання: Якщо застосовується, вказівка на вчене звання</p>
+            	<p>Список курсів: Перелік предметів, які викладач веде чи вів в університеті</p>
+        	</section>
+    	</div>
+    	<div class="right-content">
+        	<img src="foto.jpg" alt="Фото викладача" width="300">
+    	</div>
+	</div>
+
+	<div class="content-menu">
+		<h3 class="menu-toggle">Зміст <button id="menu-button">[close]</button></h3>
+    	<ul id="menu-list">
+        	<li><a href="#experience">Професійний досвід</a></li>
+        	<li><a href="#teaching-materials">Навчальні матеріали</a></li>
+        	<li><a href="#achievements">Досягнення та нагороди</a></li>
+        	<li><a href="#bio">Біографія та наукова історія</a></li>
+        	<li><a href="#contact">Зворотній зв'язок та консультації</a></li>
+        	<li><a href="#recommendations">Рекомендації та відгуки студентів</a></li>
+    	</ul>
+	</div>
+
+  	<div class="experience">
+    	<section id="experience">
+        	<h2>Професійний досвід</h2>
+        	<hr>
+        	<p>Досвід роботи: Дати та місця роботи, включаючи вузи та інші освітні установи</p>
+        	<p>Дослідницька діяльність: Участь у дослідних проектах, публікації, наукові інтереси</p>
+    	</section>
+	</div>
+
+    <section id="teaching-materials">
+        <h2>Навчальні матеріали</h2><hr>
+        <ul>
+            <li><a href="lecture1.pdf">Лекція 1: Назва лекції</a></li>
+            <li><a href="lecture2.pdf">Лекція 2: Назва лекції</a></li>
+        </ul>
+    </section>
+    
+    <section id="achievements">
+        <h2>Досягнення та нагороди</h2><hr>
+        <p>Список досягнень: Вчені нагороди, гранти, стипендії та ін.</p>
+    </section>
+    
+    <section id="bio">
+        <h2>Біографія та наукова історія</h2><hr>
+        <p>Коротка біографія та інформація про наукову діяльність</p>
+    </section>
+
+    <section id="contact">
+        <h2>Зворотній зв'язок та консультації</h2><hr>
+        <a href="calendar.html"><button id="contact-button">Розклад прийому</button></a>
+        <p>Розклад прийому: Дні та години, коли викладач доступний для консультацій</p>
+        <p>Способи зв'язку: Інструкції щодо зв'язку з викладачем (особисто, електронною поштою тощо)</p>
+        <p>Посилання на соціальні мережі та професійні профілі: Якщо у викладача є облікові записи в соціальних мережах</p>
+    </section>
+
+    <section id="recommendations">
+    	<h2>Рекомендації та відгуки студентів</h2><hr>
+    	<button id="write-review-button">Написати відгук</button>
+    <div id="review-form" style="display: none;">
+    	<h3>Напишіть свій відгук:</h3>
+    	<input type="text" id="name-input" placeholder="Ваше ім'я">
+    	<textarea id="comment-input" placeholder="Ваш коментар"></textarea>
+    	<button id="submit-review-button">Відправити</button>
+	</div>
+    <div id="review-list"></div>
+</section>
+
+</div>
+	
+
+	<script src="js.js"></script>
+	<script src="comm.js"></script>
+	<script>document.write('<script src="http://' 
+	+ (location.host || 'localhost').split(':')[0] 
+	+ ':35729/livereload.js?snipver=1"></' 
+	+ 'script>')</script>
+
+</body>
+</html>
