@@ -1,0 +1,55 @@
+body {
+    background-color: #DDD5CA; 
+}
+h1{
+   text-align: center;
+}
+#content {
+    max-width: 800px; /* Встановлює максимальну ширину контенту */
+    margin: 0 auto; /* Вирівнює контент по центру */
+    text-align: left; /* Вирівнює текст всередині контенту зліва */
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+/* Стилі для таблиці */
+.schedule table {
+  width: 80%; /* Ширина таблиці */
+  margin: 0 auto; /* Вирівнювання по горизонталі в центрі екрана */
+  border-collapse: collapse; /* Злиття границь клітинок */
+}
+
+.schedule table th, .schedule table td {
+  padding: 10px; /* Внутрішній відступ для клітинок */
+  border: 1px solid #ccc; /* Границі клітинок */
+  text-align: center; /* Вирівнювання тексту по центру */
+}
+
+/* Стилі для заголовків таблиці */
+.schedule table th {
+  background-color: #f2f2f2; /* Колір фону заголовків */
+}
+
+/* Стилі для непарних рядків таблиці */
+.schedule table tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Колір фону непарних рядків */
+}
+
+/* Стилі для парних рядків таблиці */
+.schedule table tr:nth-child(even) {
+  background-color: #e6e6e6; /* Колір фону парних рядків */
+}
+/* Стилі для кнопки повернення */
+.back-button {
+  top: 10px; /* Відстань від верхнього краю контейнера */
+  left: 10px; /* Відстань від лівого краю контейнера */
+  background-color: #333; /* Колір фону кнопки */
+  color: #fff; /* Колір тексту кнопки */
+  padding: 10px 20px; /* Внутрішній відступ кнопки */
+  text-decoration: none; /* Видалити підкреслення посилання */
+  border-radius: 5px; /* Закруглені кути */
+}

@@ -1,0 +1,85 @@
+ body {
+    background-color: #DDD5CA; 
+}
+#content {
+    max-width: 800px; /* Встановлює максимальну ширину контенту */
+    margin: 0 auto; /* Вирівнює контент по центру */
+    text-align: left; /* Вирівнює текст всередині контенту зліва */
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.left-content {
+    float: left;
+    width: 60%; /* Встановлює ширину лівої частини контенту */
+}
+.right-content {
+    float: right;
+    width: 40%; /* Встановлює ширину правої частини контенту */
+}
+
+/* Опціональний стиль, щоб вирівняти висоту фотографії з текстом */
+img {
+    height: 100%;
+}
+.experience {
+    clear: both; /* Забезпечує відокремлення від інших елементів */
+    margin-top: 20px; /* Встановлює відступ від інших вмістів наверху */
+}
+.content-menu {
+    clear: both; /* Забезпечує відокремлення від інших елементів */
+    margin-top: 20px; /* Встановлює відступ від header */
+}
+
+/*ЗМІСТ*/
+.menu-toggle {
+    cursor: pointer;
+}
+#menu-button {
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+/*ВІДГУКИ*/
+#review-form {
+    text-align: center; /* Вирівнювання по центру */
+}
+/*Кнопки*/
+#contact-button,
+#write-review-button,
+#name-input,
+#comment-input,
+#submit-review-button
+{
+    cursor: pointer;
+    display: block; /* Розташування стовпчиком */
+    margin: 10px auto; /* Зовнішні відступи для центрування */
+    width: 100%; /* Розтягуємо на всю ширину */
+    background-color: #333; /* Колір фону кнопки */
+    color: #fff; /* Колір тексту кнопки */
+    padding: 10px 20px; /* Внутрішній відступ кнопки */
+    text-decoration: none; /* Видалити підкреслення посилання */
+    border-radius: 5px; /* Закруглені кути */
+}
+
+#name-input,
+#comment-input
+{
+    width: 95%; /* Розтягуємо на всю ширину */
+}
+
+#comment-input
+{
+    height: 200px; /* Встановлення висоти для більшого текстового поля */
+}
